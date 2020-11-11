@@ -16,10 +16,6 @@ import { Router } from '@angular/router';
 
   export class GoalComponent implements OnInit {
 
-    goToUrl(id){
-      this.router.navigate(['/goals', id]);
-    }
-
     goals: Goal[];
     alertService: AlertService;
     quote: Quote;
